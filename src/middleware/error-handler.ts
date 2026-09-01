@@ -20,7 +20,7 @@ export function notFoundHandler(req: Request, res: Response): void {
  */
 export function errorHandler(
   err: unknown,
-  req: Request,
+  _req: Request,
   res: Response,
   // Must stay in the signature (see comment above) even though unused;
   // prefixed with `_` so `noUnusedParameters` doesn't flag it.
